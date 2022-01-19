@@ -1,3 +1,13 @@
+
+@media only screen and (min-width: 1000px) {
+ 
+
+
+html{
+
+    background-color: rgba(238, 225, 225, 0.342);
+}
+
 .head{
       background-image: url(usedtools/printe3dcopy1.png);
       
@@ -14,6 +24,7 @@
 .hed_header{  
     justify-content: space-between;
     display: flex;
+
 }
 header  nav{
     width: 80%;
@@ -38,7 +49,12 @@ header  ul a:hover{
      color: black;
     
 }
+.search_icon{
+position: fixed;
+margin-left: 88%;
 
+    
+}
  .search_icon #serch_img{
  width: 50%;
  margin: 30% 20% 0% 30%;
@@ -111,4 +127,94 @@ div .erst_log .erste_stock p h1{
 }
 #coustmer_div{
     margin-left: 15%;
+} 
+#img_logo{
+
+    display: none;
+}
+footer{
+background-color: black;
+width: 100%;
+position: absolute;
+bottom: 0;
+background: linear-gradient(to right,#00093c,#2d0b00);
+color: #fff;
+padding: 100px 0  30px;
+border-top-left-radius: 125px;
+font-size: 13px;
+line-height: 20px;
+
+}
+.row{
+
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+}
+@media only screen and (max-width: 1000px) {
+     body{
+         height: 100%;
+     }
+     .erst_log{
+        
+        width:70%;
+        height:300px;
+        position:absolute;
+      
+     }
+     .zweite_logo{
+         
+      
+        width:40%;
+        height:200px;
+        position: relative;
+        top: 315px;
+     }
+    #img_logo{
+        width: 60px;
+        float: right;
+        margin-right: 20px;
+        position: fixed;
+    }
+    .search_icon{
+        display: none;
+    }
+    header  nav ul {
+        display: none;
+    }
+    
+    .header_logo{
+        width:50% ;
+       
+        background-color: red;
+    } 
+    header  nav{
+        width: 50%;
+        float: right;
+    }
+    .header_logo #image_logo{
+        max-width: 30%;
+        padding: 10px;
+     
+    }
+
+}
+@media only screen and (max-width: 400px) {
+    .header_logo{
+        width:100% ;
+        margin: 50%;
+        
+    } 
+    .header_logo #image_logo{
+        max-width: 20%;
+        padding: 10px;
+        dsa
+    }
+    
 }
