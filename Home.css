@@ -180,15 +180,20 @@ line-height: 20px;
      background-color: red;
      top: 150%;
      left: 80%;
+     visibility: hidden;
  }
  .pop #nummer{
-     display: none;
+    visibility: hidden;
+    margin-left: 20%;
+    padding-left: 10%;
  }
- .pop #nummer{
-    display: none;
+ .pop #suche{
+    visibility: hidden;
+ }
+
+.dropdown-content{
+    visibility: hidden;
 }
-
-
 }
 @media only screen and (max-width: 1000px) {
      body{
@@ -200,6 +205,8 @@ line-height: 20px;
         
         
   }
+
+
   #img_logo{
 
     background-color: white;
@@ -284,6 +291,38 @@ line-height: 20px;
            display: none;
             background-color: white;
         }
+       /* .dropdown {
+            position: relative;
+            display: inline-block;
+          }*/
+          .dropunter{
+            position: relative;
+            display: inline-block;
+            margin-left: 70%;
+          }
+          
+          .dropdown-content {
+            display: none;
+          
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          .dropdown a:hover {background-color: #ddd;}
+          
+          .show {display: block;}
+    
 
 }
 @media only screen and (max-width: 400px) {
@@ -316,6 +355,7 @@ line-height: 20px;
        width:40%;
        height:200px;
        position: relative;
+       
        top: 315px;
        margin-left: 30px;
        margin-top: 30px;
@@ -376,5 +416,31 @@ line-height: 20px;
            align-items: flex-start;
            justify-content: space-between;
        }
+       .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+      
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown a:hover {background-color: #ddd;}
+      
+      .show {display: block;}
 
 }

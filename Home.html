@@ -12,8 +12,15 @@
                 </a>  
               
                 <nav class="nav_header" role="navigation">
-                 
-                    <a  href="#"> <img src="usedtools/menu (1).png" id="img_logo"></a>
+                     
+                    <a  href="#" class="dropunter"> <img src="usedtools/menu (1).png" id="img_logo" onclick="dropDown()"></a>
+                    <div class="dropdown" style="margin-left: 70%;">
+                    <div id="myDropdown" class="dropdown-content ">
+                      <a href="#home">Home</a>
+                      <a href="#about">Informations</a>
+                      <a href="#contact">über uns</a>
+                    </div>
+                  </div>
                     <ul>
                         <li>
                           <a  href="#" style="background-color: white; padding: 10px; color: black;">Home</a>
@@ -27,8 +34,8 @@
                    </ul>
                 </nav>
                <a class="search_icon" href="#" >
-                    <img  id="serch_img" src="usedtools/search.png" alt="search_icon" >
-                    <img  id="tele_img" src="usedtools/anruf.png" alt="search_icon" >
+                    <img  id="serch_img" src="usedtools/search.png" alt="search_icon"   onclick="suche()">
+                    <img  id="tele_img" src="usedtools/anruf.png" alt="search_icon" onclick="phon()" >
                </a>  
                <div  class="pop" >
                 <div id="nummer">
@@ -55,7 +62,7 @@
             <img src="usedtools/3d-printing.png" alt="printerlogo" width="50px" >
          <div id="printer_div"  class="erste_stock" style="width: 40%; ">
                <p>
-                 <h1 >our Coustm</h1>   
+                 <h1 >our Cooustm</h1>   
               </p>
             <p >
                 <h4 >was ist unnsere produckt and why
