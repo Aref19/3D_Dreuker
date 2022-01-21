@@ -4,12 +4,20 @@
 
 
 html{
-
-    background-color: rgba(238, 225, 225, 0.342);
+  
+   background-color: lightgray;
+}
+body{
+      height: auto;
+      margin: 50px;
+      background-color: white;
 }
 
 .head{
-      background-image: url(usedtools/printe3dcopy1.png);
+      /*background-image: url(usedtools/printe3dcopy1.png);*/
+      background-color: #061222;
+  
+      
       
 }
 
@@ -24,7 +32,7 @@ html{
 .hed_header{  
     justify-content: space-between;
     display: flex;
-
+    position: relative;
 }
 header  nav{
     width: 80%;
@@ -76,6 +84,7 @@ margin-left: 88%;
     height: 80;
     margin-bottom:20 px;
     background-color: white;
+    border-radius: 10px;
   
 }
 .head_description{
@@ -107,9 +116,7 @@ margin-left: 88%;
 }
 
 
-.main{
-    background-color:green;
-}
+
 .erst_log img{
     margin-left: 20%;
 
@@ -121,6 +128,7 @@ div .erst_log .erste_stock p h1{
 .zweite_logo img{
     margin-left: 20%;
 }
+
  #printer_div {
     margin-left: 15%;
 
@@ -133,14 +141,13 @@ div .erst_log .erste_stock p h1{
     display: none;
 }
 footer{
-background-color: black;
+background-color: #061222;
 width: 100%;
-position: absolute;
+margin-top: 20%;
 bottom: 0;
 background: linear-gradient(to right,#00093c,#2d0b00);
 color: #fff;
 padding: 100px 0  30px;
-border-top-left-radius: 125px;
 font-size: 13px;
 line-height: 20px;
 
@@ -155,32 +162,80 @@ line-height: 20px;
     align-items: flex-start;
     justify-content: space-between;
 }
+.main{
+   margin: 0% 0% 0 20%;
+   
+
+}
+#images{
+    width: 400px;
+    height: 400px; 
+     margin-left: 20%;
+     border-radius: 20px; 
+    margin-top: 20px;
+
+ }
+ .pop{
+     position: absolute;
+     background-color: red;
+     top: 150%;
+     left: 80%;
+ }
+ .pop #nummer{
+     display: none;
+ }
+ .pop #nummer{
+    display: none;
+}
+
 
 }
 @media only screen and (max-width: 1000px) {
      body{
-         height: 100%;
+         height: auto;
      }
-     .erst_log{
+     .head{
+        /*background-image: url(usedtools/printe3dcopy1.png);*/
+        background-color: #061222;
         
+        
+  }
+  #img_logo{
+
+    background-color: white;
+}
+  .head_description{
+    margin-left: 10%;
+    color: white;
+ 
+ }
+     .erst_log{   
         width:70%;
         height:300px;
         position:absolute;
+        margin-left: 30px;
       
      }
      .zweite_logo{
-         
-      
         width:40%;
         height:200px;
         position: relative;
         top: 315px;
+        margin-left: 30px;
+        margin-top: 20px;
+     }
+     #images{
+        position: relative;
+        top:80%;
+        bottom: 30%;
+        border-radius : 20px; 
+
      }
     #img_logo{
         width: 60px;
         float: right;
         margin-right: 20px;
-        position: fixed;
+      
     }
     .search_icon{
         display: none;
@@ -203,18 +258,123 @@ line-height: 20px;
         padding: 10px;
      
     }
+    footer{
+        background-color: #061222;
+        width: 100%;
+        margin-top: 100%;
+        bottom: 0;
+        background: linear-gradient(to right,#00093c,#2d0b00);
+        color: #fff;
+        padding: 100px 0  30px;
+        font-size: 13px;
+        line-height: 20px;
+        
+        }
+        .row{
+        
+        
+            width: 85%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        .pop{
+           display: none;
+            background-color: white;
+        }
 
 }
 @media only screen and (max-width: 400px) {
-    .header_logo{
-        width:100% ;
-        margin: 50%;
-        
-    } 
-    .header_logo #image_logo{
-        max-width: 20%;
-        padding: 10px;
-        dsa
+    body{
+        height: auto;
     }
+    .head{
+       /*background-image: url(usedtools/printe3dcopy1.png);*/
+       background-color: #061222;
+       
+       
+ }
+ #img_logo{
+
+   background-color: white;
+}
+ .head_description{
+   margin-left: 10%;
+   color: white;
+
+}
+    .erst_log{   
+       width:70%;
+       height:300px;
+       position:absolute;
+       margin-left: 30px;
+     
+    }
+    .zweite_logo{
+       width:40%;
+       height:200px;
+       position: relative;
+       top: 315px;
+       margin-left: 30px;
+       margin-top: 30px;
+    }
+    #images{
+       position: relative;
+       top:60%;
+       bottom: 50%;
+       border-radius : 20px; 
+
+    }
+   #img_logo{
+       width: 60px;
+       float: right;
+       margin-right: 20px;
+     
+   }
+   .search_icon{
+       display: none;
+   }
+   header  nav ul {
+       display: none;
+   }
+   
+   .header_logo{
+       width:50% ;
+      
+       background-color: red;
+   } 
+   header  nav{
+       width: 50%;
+       float: right;
+   }
+   .header_logo #image_logo{
+       max-width: 30%;
+       padding: 10px;
     
+   }
+   footer{
+       background-color: #061222;
+       width: 100%;
+       margin-top: 100%;
+       bottom: 0;
+       background: linear-gradient(to right,#00093c,#2d0b00);
+       color: #fff;
+       padding: 100px 0  30px;
+       font-size: 13px;
+       line-height: 20px;
+       
+       }
+       .row{
+       
+       
+           width: 85%;
+           margin: auto;
+           display: flex;
+           flex-wrap: wrap;
+           align-items: flex-start;
+           justify-content: space-between;
+       }
+
 }
