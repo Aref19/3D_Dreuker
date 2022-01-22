@@ -1,0 +1,46 @@
+body {
+	font-family: Inter, sans-serif;
+	margin: 5% 20%;
+	text-align: justify;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border:2px solid pink;
+	float: left;
+	margin-right: 10px;
+}
+
+div {
+	border-radius: 20px;
+	background-color: #B6FFF4;
+}
+
+.images-container  {
+	background-color: #B6FFF4;
+	padding: 16px;
+}
+
+.image-container {
+	border-radius: 0;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.image-container > p {
+	margin: 0;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0%;
+	border: 7px solid gray;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	border: 5px solid gray;
+}
