@@ -1,16 +1,162 @@
 html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
+    background-color: #061222;
 }
 
-h2 {
+#color {
+    color: white;
+}
+
+.radiospotUeberschrift {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 
 audio {
     margin: 0 auto;
     display: block;
+    width: 450px;
+}
+
+.plakat {
+    height: 650px;
+    width: 450px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.werbung {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+    gap: 20px;
+    background-color: #061222;
+    box-shadow: 0px 0px 10px #091b33;
+    width: 800px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.radio {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #061222;
+    box-shadow: 0px 0px 10px #091b33;
+    border-radius: 50px;
+    width: 575px;
+    height: 530px;
+}
+
+.btnPlakat {
+    margin: auto;
+    display: block;
+    height: 50px;
+    width: 450px;
+    background-color: #0466c8;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 2px 5px #0353a4;
+    transition: 1s ease;
+}
+
+.btnPlakat:hover {
+    background-color: #061222;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px #0353a4;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.btnRadio {
+    text-decoration: none;
+    height: 50px;
+    width: 450px;
+    margin: auto;
+    display: block;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: #0466c8;
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 5px #0353a4;
+    transition: 1s ease;
+}
+
+.btnRadio:hover {
+    background-color: #061222;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px #0353a4;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    padding: 10px;
+    margin-top: 25px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #061222;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    font-size: 15px;
+
+}
+
+footer a:hover {
+    color: #495057;
+}
+
+.beschreibung {
+    margin-top: auto;
+    line-height: 35px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.trennlinie {
+    width: 300px;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin-bottom: 50px;
+    background-color: #091b33;
+}
+
+.decoration {
+    color:inherit;
+    text-decoration: none;
+}
+
+.decoration:hover {
+    color: #0353a4;
+}
+
+.ueberschrift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.script {
+    margin-left: 65px;
+    margin-right: 65px;
 }
