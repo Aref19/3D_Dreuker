@@ -21,9 +21,7 @@ body{
       
 }
 
-.header_logo{
-    width:25% ;
-}
+
 
 .header_logo #image_logo{
     max-width: 70%;
@@ -36,6 +34,7 @@ body{
 }
 header  nav{
     width: 80%;
+    margin-left: 20%;
 }
 header  nav ul {
     margin-left: 50%;
@@ -141,11 +140,11 @@ div .erst_log .erste_stock p h1{
     display: none;
 }
 footer{
-background-color: #061222;
+    background-color: #061222;
 width: 100%;
 margin-top: 20%;
 bottom: 0;
-background: linear-gradient(to right,#00093c,#2d0b00);
+
 color: #fff;
 padding: 100px 0  30px;
 font-size: 13px;
@@ -163,16 +162,17 @@ line-height: 20px;
     justify-content: space-between;
 }
 .main{
-   margin: 0% 0% 0 20%;
+   margin: 0% 0% 0 10%;
    
 
 }
 #images{
     width: 400px;
     height: 400px; 
-     margin-left: 20%;
+     margin-left: 30%;
      border-radius: 20px; 
-    margin-top: 20px;
+     
+    margin-top: 80px;
 
  }
  .pop{
@@ -194,6 +194,12 @@ line-height: 20px;
 .dropdown-content{
     visibility: hidden;
 }
+.coustmer_div{
+    width: 50%;
+}
+.printer_div{
+    width: 50%;
+}
 }
 @media only screen and (max-width: 1000px) {
      body{
@@ -205,7 +211,13 @@ line-height: 20px;
         
         
   }
-
+  #printimg{
+      display: none;
+  }
+  #imggrup{
+    display: none; 
+  }
+  
 
   #img_logo{
 
@@ -233,8 +245,8 @@ line-height: 20px;
      }
      #images{
         position: relative;
-        top:80%;
-        bottom: 30%;
+        top:70%;
+        bottom: 50%;
         border-radius : 20px; 
 
      }
@@ -291,6 +303,12 @@ line-height: 20px;
            display: none;
             background-color: white;
         }
+        .coustmer_div{
+            width: 100%;
+        }
+        .printer_div{
+            width: 100%;
+        }
        /* .dropdown {
             position: relative;
             display: inline-block;
@@ -322,6 +340,7 @@ line-height: 20px;
           .dropdown a:hover {background-color: #ddd;}
           
           .show {display: block;}
+        
     
 
 }
@@ -423,7 +442,6 @@ line-height: 20px;
       
       .dropdown-content {
         display: none;
-      
         position: absolute;
         background-color: #f1f1f1;
         min-width: 160px;
