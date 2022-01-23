@@ -1,3 +1,462 @@
-dsas
-dsadsam lödsa 
-pk sda
+
+@media only screen and (min-width: 1000px) {
+ 
+
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
+}
+body{
+      height: auto;
+      margin: 50px;
+      background-color: white;
+}
+
+.head{
+      /*background-image: url(usedtools/printe3dcopy1.png);*/
+      background-color: #061222;
+}
+
+.header_logo #image_logo{
+    max-width: 70%;
+    padding: 10px;
+}
+.hed_header{  
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+header  nav{
+    width: 80%;
+    margin-left: 20%;
+}
+header  nav ul {
+    margin-left: 50%;
+}
+
+header  nav ul li{
+    display : inline-block;
+    padding: 5px;
+}
+
+header ul a{
+text-decoration: none;
+color: white;
+background-color: #061222;
+padding: 10px;
+font-size: large;
+}
+
+header  ul a:hover,
+header  ul a#current {
+     padding: 10px;
+     background-color: white;
+     color: black;
+    
+}
+
+.search_icon{
+position: fixed;
+margin-left: 88%;
+
+    
+}
+ .search_icon #serch_img{
+ width: 50%;
+ margin: 30% 20% 0% 30%;
+  
+}
+.search_icon #tele_img{
+    width: 50%;
+    margin: 20% 20% 10% 30%;
+}
+
+.search_icon #tele_img:hover{
+    margin-left: 15px;
+}
+.search_icon #serch_img:hover{
+    margin-left: 15px;
+}
+.search_icon{
+    width:3%;
+    height: 80;
+    margin-bottom:20 px;
+    background-color: white;
+    border-radius: 10px;
+  
+}
+.head_description{
+   margin-left: 10%;
+   color: white;
+
+}
+.logos{
+    width: 150px;
+    height: 150px;
+    margin-left: 25%;
+    display: flex;
+    margin-top: 10%;
+    background-color: violet;
+    float: left;
+   
+   
+}
+.logos #erst_icon{
+    padding: 100px ;
+    width: 50px;
+    padding-top: 100px;
+}
+.logos #zweite_icon{
+    padding: 100px ;
+    width: 50px;
+    padding-top: 100px;
+   
+}
+
+.erst_log img{
+    margin-left: 20%;
+
+}
+div .erst_log .erste_stock p h1{
+    margin-left: 20%;
+
+}
+.zweite_logo img{
+    margin-left: 20%;
+}
+
+ #printer_div {
+    margin-left: 15%;
+
+}
+#coustmer_div{
+    margin-left: 15%;
+} 
+#img_logo{
+
+    display: none;
+}
+footer{
+    background-color: #061222;
+width: 100%;
+margin-top: 20%;
+bottom: 0;
+
+color: #fff;
+padding: 100px 0  30px;
+font-size: 13px;
+line-height: 20px;
+
+}
+.row{
+
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.main{
+   margin: 0% 0% 0 10%;
+   
+
+}
+#images{
+    width: 400px;
+    height: 400px; 
+     margin-left: 30%;
+     border-radius: 20px; 
+     
+    margin-top: 80px;
+
+ }
+ .pop{
+     position: absolute;
+     background-color: red;
+     top: 150%;
+     left: 80%;
+     visibility: hidden;
+ }
+ .pop #nummer{
+    visibility: hidden;
+    margin-left: 20%;
+    padding-left: 10%;
+ }
+ .pop #suche{
+    visibility: hidden;
+ }
+
+.dropdown-content{
+    visibility: hidden;
+}
+.coustmer_div{
+    width: 50%;
+}
+.printer_div{
+    width: 50%;
+}
+}
+@media only screen and (max-width: 1000px) {
+     body{
+         height: auto;
+     }
+     .head{
+        /*background-image: url(usedtools/printe3dcopy1.png);*/
+        background-color: #061222;
+        
+        
+  }
+  #printimg{
+      display: none;
+  }
+  #imggrup{
+    display: none; 
+  }
+  
+
+  #img_logo{
+
+    background-color: white;
+}
+  .head_description{
+    margin-left: 10%;
+    color: white;
+ 
+ }
+     .erst_log{   
+        width:70%;
+        height:300px;
+        position:absolute;
+        margin-left: 30px;
+      
+     }
+     .zweite_logo{
+        width:40%;
+        height:200px;
+        position: relative;
+        top: 315px;
+        margin-left: 30px;
+        margin-top: 20px;
+     }
+     #images{
+        position: relative;
+        top:70%;
+        bottom: 50%;
+        border-radius : 20px; 
+
+     }
+    #img_logo{
+        width: 60px;
+        float: right;
+        margin-right: 20px;
+      
+    }
+    .search_icon{
+        display: none;
+    }
+    header  nav ul {
+        display: none;
+    }
+    
+    .header_logo{
+        width:50% ;
+       
+        background-color: red;
+    } 
+    header  nav{
+        width: 50%;
+        float: right;
+    }
+    .header_logo #image_logo{
+        max-width: 30%;
+        padding: 10px;
+     
+    }
+    footer{
+        background-color: #061222;
+        width: 100%;
+        margin-top: 100%;
+        bottom: 0;
+        background: linear-gradient(to right,#00093c,#2d0b00);
+        color: #fff;
+        padding: 100px 0  30px;
+        font-size: 13px;
+        line-height: 20px;
+        
+        }
+        .row{
+        
+        
+            width: 85%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        .pop{
+           display: none;
+            background-color: white;
+        }
+        .coustmer_div{
+            width: 100%;
+        }
+        .printer_div{
+            width: 100%;
+        }
+       /* .dropdown {
+            position: relative;
+            display: inline-block;
+          }*/
+          .dropunter{
+            position: relative;
+            display: inline-block;
+            margin-left: 70%;
+          }
+          
+          .dropdown-content {
+            display: none;
+          
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          .dropdown a:hover {background-color: #ddd;}
+          
+          .show {display: block;}
+        
+    
+
+}
+@media only screen and (max-width: 400px) {
+    body{
+        height: auto;
+    }
+    .head{
+       /*background-image: url(usedtools/printe3dcopy1.png);*/
+       background-color: #061222;
+       
+       
+ }
+ #img_logo{
+
+   background-color: white;
+}
+ .head_description{
+   margin-left: 10%;
+   color: white;
+
+}
+    .erst_log{   
+       width:70%;
+       height:300px;
+       position:absolute;
+       margin-left: 30px;
+     
+    }
+    .zweite_logo{
+       width:40%;
+       height:200px;
+       position: relative;
+       
+       top: 315px;
+       margin-left: 30px;
+       margin-top: 30px;
+    }
+    #images{
+       position: relative;
+       top:60%;
+       bottom: 50%;
+       border-radius : 20px; 
+
+    }
+   #img_logo{
+       width: 60px;
+       float: right;
+       margin-right: 20px;
+     
+   }
+   .search_icon{
+       display: none;
+   }
+   header  nav ul {
+       display: none;
+   }
+   
+   .header_logo{
+       width:50% ;
+      
+       background-color: red;
+   } 
+   header  nav{
+       width: 50%;
+       float: right;
+   }
+   .header_logo #image_logo{
+       max-width: 30%;
+       padding: 10px;
+    
+   }
+   footer{
+       background-color: #061222;
+       width: 100%;
+       margin-top: 100%;
+       bottom: 0;
+       background: linear-gradient(to right,#00093c,#2d0b00);
+       color: #fff;
+       padding: 100px 0  30px;
+       font-size: 13px;
+       line-height: 20px;
+       
+       }
+       .row{
+       
+       
+           width: 85%;
+           margin: auto;
+           display: flex;
+           flex-wrap: wrap;
+           align-items: flex-start;
+           justify-content: space-between;
+       }
+       .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown a:hover {background-color: #ddd;}
+      
+      .show {display: block;}
+
+}

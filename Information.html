@@ -4,13 +4,55 @@
 <head>
     <title>Information</title>
     <link rel="stylesheet" type="text/css" href="information.css">
+    <link rel="stylesheet" href="Home.css">
 </head>
 
 <body>
-    <div id="page">
-        <h1 id="color" class="ueberschrift">Information</h1>
+    <div class="head">
+        <header class="hed_header">
+            <nav class="nav_header" role="navigation">
 
-        <hr class="trennlinie">
+                <a href="#" class="dropunter"> <img src="usedtools/menu (1).png" id="img_logo" onclick="dropDown()"></a>
+                <div class="dropdown" style="margin-left: 70%;">
+                    <div id="myDropdown" class="dropdown-content ">
+                        <a href="#home">Home</a>
+                        <a href="#about">Informations</a>
+                        <a href="#contact">Über uns</a>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <a href="Home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" id="current">Informations</a>
+                    </li>
+                    <li>
+                        <a href="Über-uns.html">Über uns</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="pop">
+                <div id="nummer">
+                    <p>unsere nummer
+                    </p>
+                    <h3>0421333335 </h3>
+                </div>
+                <div id="suche">
+                    <label> Bitte eingeben <input type="text" style="margin: 10px;"></label>
+                </div>
+            </div>
+
+        </header>
+        <div class="head_description" style="margin-top: 15%; width: 25%;">
+            <h1>Product-Printer
+            </h1>
+
+        </div>
+
+    </div>
+    <div id="page">
+        <h1 class="ueberschrift">Information</h1>
 
         <div class="werbung">
             <img class="plakat" src="Werbeplakat.jpg" alt="Werbeplakat">
@@ -41,16 +83,24 @@
                     Mit dem Product-Printer wird Online-Shopping ganz einfach. Nur ein
                     Mausklick reicht und sie haben Ihre Bestellung direkt bei sich zuhause.
                     Für mehr Infos besuchen Sie www punkt Product minus Printer punkt de</p>
-                    
+
                 <p><u>MUSIK: Werbemusik (fade out)</u></p>
             </div>
         </div>
-        <a href="ProductPrinterRadiospot.mp3" download><button class="btnRadio">Download Radiospot</button></a>
+        <a href="ProductPrinterRadiospot.mp3" download><button class="btn">Download Radiospot</button></a>
+        <a href="quellen.html" class="quellen"><button class="btn">Quellen</button></a>
 
-        <hr class="trennlinie">
-
-        <footer id="footer">
-            <a href="quellen.html">Quellen</a>
+        <footer>
+            <div class="row">
+                <div>
+                    <p style="color: white;  margin-right: 20px;">product@info.de</p>
+                    <p style="color: white; margin-left: 20px;">straße: Wormser 14
+                    </p>
+                    <p style="color: white; margin-left: 20px;"> plzStadt
+                        28327
+                    </p>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
